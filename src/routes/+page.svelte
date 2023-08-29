@@ -8,15 +8,15 @@
         <form method="POST" class="container">
             <div class="input">
                 <label for="">To:</label>
-                <input name="to" type="email" value="sharath.dt@gmail.com" />
+                <input name="to" type="email" value="hello@crocodaily.com" />
             </div>
             <div class="input">
                 <label for="">Subject:</label>
-                <input name="subject" type="text" value="A test subject" />
+                <input name="subject" type="text" value="" />
             </div>
             <div class="input">
                 <label for="">Body:</label>
-                <textarea name="body" rows="6" value="A test message" />
+                <textarea name="body" rows="6" value="" />
             </div>
             <button type="submit">Send</button>
         </form>
@@ -58,8 +58,9 @@
         cursor: pointer;
         padding: 0.5em 1em;
         border-radius: 4px;
-        border: 1px solid darkseagreen;
-        background-color: darkseagreen;
+        border: 1px solid rgb(5, 151, 64);
+        background-color: rgb(5, 151, 64);
+        color: white
     }
     .success {
         color: #0a5;

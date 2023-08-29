@@ -9,7 +9,7 @@ export const actions = {
             const subject = formData.get("subject");
             const body = formData.get("body");
             console.log(body);
-            let html = `<h2>Hi!</h2><p>${body}</p>`;
+            let html = `<h2>Hi!</h2><pre>${body}</pre>`;
 
             const message = {
                 from: GOOGLE_EMAIL,
